@@ -19,9 +19,18 @@ public class App {
      * Document what this method does here!
      */
     public void printInstructions() {
-       
     }
+    public void printGreeting (String name)  {
+        System.out.print("Hello" + name + "welcome to my very funny MadLib");
+
+    }
+    public boolean doMadlib()   {
+        return false;
+    }
+    public String getUserName()  {
     
+    return " Max ";
+    }
     // add and implement the other methods you need in this area below!
     
   
